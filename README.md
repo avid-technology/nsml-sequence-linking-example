@@ -1,8 +1,8 @@
-# Example that shows how linking between NSML story in Inews and interplay sequence can be implemented
+# Example that shows how linking between NSML story in MediaCentral | Newsroom Management (formally known as iNEWS)and MediaCentral | Production Management (formerly known as Interplay Production) sequence can be implemented
 
 
 ### Introduction
-This example shows how you can link NSML story with interplay sequence using CTMS calls.
+This example shows how you can link a Newsroom Management story with a Production Management  sequence using CTMS calls.
 
 **!Important!** Only one sequence reference can be added into story.
 
@@ -13,7 +13,7 @@ NSML expresses meta information about a story in the `<head>` section; it expres
 it expresses the story content in the `<fields>`, `<body>`, and `<aeset>` sections; 
 and it expresses arbitrary attachments in the `<field-atts>` and `<aeset-atts>` sections.
 
-To link interplay sequence and inews story first of all you need to add specific attribute - NrcsID to the sequence.
+To link a Production Management sequence with a Newsroom Management  story, you will need to add specific attribute, NrcsID, to the sequence.
 
 NrcsID - is id that contains from components such:
 *  INEWS system id
@@ -33,7 +33,7 @@ So, if tou have a global identifier that is :
 
 then your NrcsID is INEWS:SHOW.530PM.RUNDOWN:228772013.15671.15.
 
-And NrcsID attribute for interplay sequence will look like:
+And NrcsID attribute for the Production Management sequence will look like:
 
 ```
 {
@@ -46,7 +46,7 @@ And NrcsID attribute for interplay sequence will look like:
 }
 ```
 
-Second, you need to update your NSML for the story. 
+Next, you need to update your NSML for the story. 
 
 To anchor the element to the story you need to add some tags to nsml. 
 
