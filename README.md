@@ -1,4 +1,4 @@
-# Example that shows how linking between NSML story in MediaCentral | Newsroom Management (formally known as iNEWS)and MediaCentral | Production Management (formerly known as Interplay Production) sequence can be implemented
+# Example that shows how linking between NSML story in MediaCentral | Newsroom Management (formally known as iNEWS) and MediaCentral | Production Management (formerly known as Interplay Production) sequence can be implemented
 
 
 ### Introduction
